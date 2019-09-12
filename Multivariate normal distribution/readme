@@ -1,0 +1,13 @@
+predict if a fish is from Alaska or Canada based on two features:
+x1 = diameter of rings for first-year freshwater growth (in hundredths of an inch)
+x2 = diameter of rings for first-year marine growth (in hundredths of an inch)
+
+use the salmon dataset that was given in the file Salmon Dataset.csv:
+The first line in the file contains the header information.
+Each subsequent line in the file gives the information for one example.
+Each example in the file has three features (and an index).
+
+output the following values and write them to a separate text file (or the standard output):
+1. The estimated mu0 and sigma0 of the Gaussian for the Alaskan salmon
+2. The estimated mu1 and sigma1 of the Gaussian for the Canadian salmon
+3. The predicted class (Alaskan or Canadian) of the fish
