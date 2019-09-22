@@ -1,3 +1,7 @@
+The data set contains one message per line.
+Each line is composed by two columns: one with label (ham or spam) and the other with the raw text.
+Note: messages are not chronologically sorted.
+
 To classify SMS messages as spam or not spam, the data set has been divided into training and test sets.
 The training example are in a Numpy array called X_train and their corresponding labels are in a Numpy array called y_train.
 The test examples are in a Numpy array called X_test and their corresponding labels are in a Numpy array called y_test.
