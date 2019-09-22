@@ -1,0 +1,29 @@
+To classify SMS messages as spam or not spam, the data set has been divided into training and test sets.
+The training example are in a Numpy array called X_train and their corresponding labels are in a Numpy array called y_train.
+The test examples are in a Numpy array called X_test and their corresponding labels are in a Numpy array called y_test.
+
+To do: Implement Bernoulli Naive Bayes in Python.
+
+Training details:
+During the training phase, you will use the examples in the training file to estimate the value of P(y) for each class.
+For each pair xj, y of feature and class, you will need to estimate the probability p(xj | y).
+
+Estimation of P(y):
+To estimate the P(y) values, just calculate the fraction of the training examples that are in class y.
+
+Testing details:
+For each example (x1, ...... , xd) in the X_test and the labels in y_test, you want to determine which class maximizes
+p(x1 | y) * p(x2 | y) * ...... * p(xd | y) * P(y)
+Multiplying lots of small values can lead to underflow. To avoid that, you should not calculate
+p(x1 | y) * p(x2 | y) * ...... * p(xd | y) * P(y)
+directly for each class y.
+Instead, calculate log[p(x | y) * P(y)].
+Then label the example with the class achieving the maximum value for this expression.
+If there is a tie, give the example the label 1.
+
+Outputs:
+1. The estimated value of P(y) for each class y.
+2. The predicted classes for the first 50 test examples.
+3. Total number of test examples classified correctly. (Compare the predicted class for each test example with the given class label.)
+4. Total number of test examples classified incorrectly.
+5. The percentage error on the test examples.
