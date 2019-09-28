@@ -1,0 +1,13 @@
+Implement k nearest neighbors (k-NN) to classify an Iris as Iris Setosa, Iris Versicolour, or Iris Virginica, using an euclidean-distance function.
+Each line of the file consists of 4 measurements (sepal length, sepal width, petal length, and petal width) and the type of iris these measurements came from.
+In this program, you will only use two of these features: sepal length and petal width.
+Run this program with k = 1 , k = 3 and with k = 5.
+For k > 1, sort the training examples by distance from the test example, smallest to largest, to find the k nearest training examples.
+
+Outputs:
+1. the accuracy on the test set for k = 1
+2. the accuracy on the test set for k = 3
+3. the accuracy on the test set for k = 5
+4. Suppose we used the very simple Zero-R classifier on this dataset, rather than k-NN.
+That is, we classify all examples in the test set as belonging to the class that is most common in the training set.
+What is the resulting accuracy?
