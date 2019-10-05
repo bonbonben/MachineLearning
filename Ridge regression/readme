@@ -1,0 +1,8 @@
+estimate the price of a house in Boston using 13 attributes:
+Fit a ridge regression model using the closed solution.
+Use 10-fold cross validation to find the best lambda = [10^1, 10^1.5, 10^2, 10^2.5,..., 10^7].
+Use the Numpy function: np.logspace(1, 7, num=13) to get the different values for lambda.
+For the best lambda you found, use 10-fold cross validation to estimate the performance of this model with this lambda.
+Select the best hyperparameter using MSE.
+
+Repeat the previous exercise by creating a polynomial transformation of degree 2 on the features of the dataset.
