@@ -1,0 +1,17 @@
+Using gradient ascent and apply it to a two-class classification problem to detect breast cancer.
+
+The initial hyper-paramters:
+1. threshold = 0.5
+2. learning rate = 0.5
+3. number of iterations to run the algorithm = 5000
+
+After running the logistic regression classifier, report the following:
+1. the values of the coefficient vector w
+2. for the test data set, determine the precision, recall, f1 score, confusion matrix
+Precision - fraction of predicted positive answers that were really positive = TP / (TP + FP)
+Recall - fraction of positive answers you correctly calculated (Aka TPR, sensitivity) = TP / (TP + FN)
+F1 score - the average of precision and recall = 2 * Precision * Recall / (Precision + Recall)
+Confusion matrix - the diagonal contains TP and TN and the off diagonal contains FP and FN
+3. plot the value of the log-likelihood (the objective function) on every 100 iteration's of the gradient ascent
+, with the iteration number on the horizontal axis and the objective value on the vertical axis.
+4. use the test set as a validation set and see if you can find a better setting of the hyper-parameters.
