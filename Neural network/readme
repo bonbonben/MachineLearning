@@ -7,6 +7,6 @@ You will notice it is not differentiable at 0, but you can use: f'(z) = 0 if z <
 For more information see https://www.kaggle.com/dansbecker/rectified-linear-units-relu-in-deep-learning
 (c) Try using the tanh activation function, f(z) = (e^z - e^(-z)) / (e^z + e^(-z)).
 The derivative of tanh is f'(z) = 1 - (f(z))^2.
-For more information see http://ufldl.stanford.edu/wiki/index.php/Neural_Networks
+For more information see http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/
 (d) Try the different weight initializations
 (e) Experiment on your own trying different hyper-parameters
