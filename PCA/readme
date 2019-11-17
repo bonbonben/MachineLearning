@@ -1,0 +1,12 @@
+Outputs:
+(a) Display the fourth face in the dataset using the appropriate command above. Print the resulting display.
+(b) Compute the mean of all the examples in the dataset fea.
+(That is, compute an image such that each pixel i of the image is the mean of pixel i in all the images in fea.)
+Display it using a modification of the above command. Give the Python commands you used and show the resulting display.
+(c) Let's do dimensionality reduction with pca. Using Python, compute the 5 top principal components of the data matrix fea.
+Give the Python commands you used. What are the values of the associated 5 attributes of the fourth image in the dataset?
+(d) Project the fourth face in the dataset onto the first 5 principle components.
+(e) Project the fourth face back into the original space.
+Give the Python commands you used. Display the resulting approximate image and print the resulting display.
+Repeat with the first 50 principle components (instead of 5).
+(These are representations of the fourth image, based on 5 or 50 features instead of the original 2914 pixel features.)
