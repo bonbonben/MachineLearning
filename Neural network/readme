@@ -1,0 +1,12 @@
+Modify the neural network implementation to see if you can improve the performance on the MINST dataset by trying the following:
+(a) Add a regularization term to the cost function.
+See section 1.2 in http://adventuresinmachinelearning.com/improve-neural-networks-part-1/
+(b) Try using the ReLU activation function, f(z) = max(0, z).
+You will notice it is not differentiable at 0, but you can use: f'(z) = 0 if z < 0 and f'(z) = 1 if z >= 0.
+(You can also try using the leaky ReLU activation function.)
+For more information see https://www.kaggle.com/dansbecker/rectified-linear-units-relu-in-deep-learning
+(c) Try using the tanh activation function, f(z) = (e^z - e^(-z)) / (e^z + e^(-z)).
+The derivative of tanh is f'(z) = 1 - (f(z))^2.
+For more information see http://ufldl.stanford.edu/wiki/index.php/Neural_Networks
+(d) Try the different weight initializations
+(e) Experiment on your own trying different hyper-parameters
