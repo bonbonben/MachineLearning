@@ -1,0 +1,8 @@
+Answer the following questions for the data matrix X and labels y given in the files X.csv and y.csv:
+(a) what are the weights computed by the SVM primal problem
+(b) which of the training examples are closest to the decision boundary in the SVM primal problem
+(c) what is the decision function fprimal(x)
+(d) using the decision function from (c), what are the labels of (3.0, 1.5)T and (1.2, 3.0)T
+(e) After solving the SVM dual problem, which are the support vectors, and what are their corresponding alpha values
+(f) what is the decision function fdual(x)
+(g) using the decision function from (f), what are the labels of (3.0, 1.5)T and (1.2, 3.0)T
