@@ -1,0 +1,10 @@
+1. Select a Machine Learning algorithm.
+2. Head over to sklearn and find its implementation of this algorithm.
+Find some extensions of the basic algorithm implemented by sklearn that improve performance, and implement it yourself.
+3. Find datasets of your choice that also perform better with your new extensions.
+
+Basic algorithm: Logistic Regression
+Extensions: Random Forest & Feature Selection
+Datasets: diabetes.csv & load_breast_cancer from Sklearn
+
+p.s. If Scikit-learn does not support your algorithm, you may consider other libraries (example: PyTorch, Tensorflow).
